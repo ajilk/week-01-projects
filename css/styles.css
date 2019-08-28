@@ -1,3 +1,6 @@
+#mainHeading {
+	background-color: rgba(0, 0, 0, 0.5);
+}
 .bg-gray {
   background-color: lightgray;
 }
@@ -6,10 +9,8 @@
   background-color: deepskyblue;
 }
 
-.post-content {
-    /* background: none repeat scroll 0 0 #FFFFFF; */
-    opacity: 0.5;
-    top: 20%;
-    left: 50%;
-    position: absolute;
+.jumbotron {
+  background-image: url("../img/milkbg.jpg");
+  background-size: cover;
+  min-height: 300px;
 }
